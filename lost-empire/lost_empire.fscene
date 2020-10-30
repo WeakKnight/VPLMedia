@@ -1,0 +1,58 @@
+{
+    "version": 1,
+    "camera_speed": 5.0,
+    "lighting_scale": 8.0,
+    "active_camera": "Camera0",
+    "models": [
+        {
+            "file": "lost_empire.obj",
+            "name": "LostEmpire",
+            "instances": [
+                {
+                    "name": "inst0",
+                    "translation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "scaling": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            ]
+        }
+    ],
+    "cameras": [
+        {
+            "name": "Camera0",
+            "pos": [
+                -8.817,
+                12.00935,
+                -7.9
+            ],
+            "target": [
+                -7.9,
+                11.96,
+                -8.417
+            ],
+            "up": [
+                0.0,
+                1.0,
+                0.0
+            ],
+            "focal_length": 21.0,
+            "depth_range": [
+                0.10000000149011612,
+                10000.0
+            ],
+            "aspect_ratio": 1.777778
+        }
+    ]
+}
