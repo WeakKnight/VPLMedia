@@ -1,0 +1,15 @@
+# Load FBX
+sceneBuilder.importScene('CornellBox.obj')
+
+# Add environment map
+envMap = EnvMap('LightProbes/20050806-03_hd.hdr')
+envMap.intensity = 1.0
+sceneBuilder.envMap = envMap
+
+# Add camera
+camera = Camera()
+camera.position = float3(-0.1355,1.0567,2.9615)
+camera.target = float3(-0.1117,1.0496,1.9618)
+camera.up = float3(0.0,0.9999,-0.0011)
+camera.focalLength = 21.0
+sceneBuilder.addCamera(camera)
