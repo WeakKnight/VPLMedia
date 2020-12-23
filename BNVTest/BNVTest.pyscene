@@ -1,9 +1,11 @@
 # Load FBX
-scene = sceneBuilder.importScene('BNVTest.fbx')
+# scene = sceneBuilder.importScene('BNVTest.fbx')
+# scene = sceneBuilder.importScene('salle_de_bain.obj')
+scene = sceneBuilder.importScene('fireplace_room.obj')
 
-m = sceneBuilder.getMaterial('Material.007')
-m.roughness = 0.15
-m.metallic = 0.4
+# m = sceneBuilder.getMaterial('Material.007')
+# m.roughness = 0.15
+# m.metallic = 0.4
 
 # Add environment map
 envMap = EnvMap('LightProbes/20050806-03_hd.hdr')
