@@ -1,7 +1,8 @@
 # Load FBX
 # scene = sceneBuilder.importScene('BNVTest.fbx')
 # scene = sceneBuilder.importScene('salle_de_bain.obj')
-scene = sceneBuilder.importScene('fireplace_room.obj')
+# scene = sceneBuilder.importScene('fireplace_room.obj')
+scene = sceneBuilder.importScene('fireplace_room1.obj')
 
 # m = sceneBuilder.getMaterial('Material.007')
 # m.roughness = 0.15
