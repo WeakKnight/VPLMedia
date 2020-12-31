@@ -5,7 +5,7 @@
     "active_camera": "Camera0",
     "models": [
         {
-            "file": "fireplace_room.obj",
+            "file": "fireplace_room1.obj",
             "name": "FireplaceRoom",
             "instances": [
                 {
