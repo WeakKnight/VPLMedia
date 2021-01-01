@@ -2,8 +2,22 @@
 # scene = sceneBuilder.importScene('BNVTest.fbx')
 # scene = sceneBuilder.importScene('salle_de_bain.obj')
 # scene = sceneBuilder.importScene('fireplace_room.obj')
-scene = sceneBuilder.importScene('fireplace_room1.obj')
+# scene = sceneBuilder.importScene('fireplace_room1.obj')
+scene = sceneBuilder.importScene('untitled.obj')
 
+# metalMat = Material('ring')
+# metalMat.baseColor = float4(0.1, 0.1, 0.8, 0)
+# metalMat.roughness = 0.08
+# metalMat.metallic = 1
+
+# metalRing = TriangleMesh.createFromFile('ring box _Aneis_.obj')
+# metalMeshID = sceneBuilder.addTriangleMesh(metalRing, metalMat)
+
+# ringNodeID = sceneBuilder.addNode('Ring', Transform(scaling=0.01, translation=float3(1.68, 0.83, -1.76)))
+
+# sceneBuilder.addMeshInstance(ringNodeID, metalMeshID)
+
+# ring box _Aneis_.obj
 # m = sceneBuilder.getMaterial('Material.007')
 # m.roughness = 0.15
 # m.metallic = 0.4
