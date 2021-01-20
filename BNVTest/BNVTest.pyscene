@@ -18,9 +18,15 @@ scene = sceneBuilder.importScene('untitled.obj')
 # sceneBuilder.addMeshInstance(ringNodeID, metalMeshID)
 
 # ring box _Aneis_.obj
-# m = sceneBuilder.getMaterial('Material.007')
-# m.roughness = 0.15
-# m.metallic = 0.4
+m = sceneBuilder.getMaterial('grey_and_white_room:BrushedStainlessSteel.002')
+m.specularParams = float4(0.726, 0.726, 0.726, 0.86)
+
+m = sceneBuilder.getMaterial('grey_and_white_room:Mirror.002')
+m.baseColor = float4(0.0, 0.0, 0.0, 1)
+
+m = sceneBuilder.getMaterial('grey_and_white_room:TableWood.002')
+m.specularParams = float4(0.1, 0.1, 0.1, 0.68)
+
 
 # Add environment map
 envMap = EnvMap('LightProbes/20050806-03_hd.hdr')
