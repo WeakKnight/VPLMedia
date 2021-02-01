@@ -1,0 +1,35 @@
+scene = sceneBuilder.importScene('DiscoScene.obj')
+
+m = sceneBuilder.getMaterial('None')
+m.baseColor = float4(0.8, 0.8, 0.8, 1.0)
+m.specularParams = float4(0.0, 0.0, 0.0, 0.0)
+
+m = sceneBuilder.getMaterial('GlossySpec')
+m.baseColor = float4(0.0, 0.0, 0.0, 1)
+m.specularParams = float4(1.0, 1.0, 1.0, 0.85)
+
+m = sceneBuilder.getMaterial('Green')
+m.baseColor = float4(0.0, 0.0, 0.0, 0.0)
+m.specularParams = float4(0.0, 0.0, 0.0, 0.0)
+
+m = sceneBuilder.getMaterial('Red.001')
+m.baseColor = float4(0.0, 0.0, 0.0, 0.0)
+m.specularParams = float4(0.0, 0.0, 0.0, 0.0)
+
+m = sceneBuilder.getMaterial('Blue')
+m.baseColor = float4(0.0, 0.0, 0.0, 0.0)
+m.specularParams = float4(0.0, 0.0, 0.0, 0.0)
+
+# Add environment map
+envMap = EnvMap('LightProbes/20050806-03_hd.hdr')
+envMap.intensity = 1.0
+sceneBuilder.envMap = envMap
+
+# Add camera
+camera = Camera()
+camera.name = 'Default'
+camera.position = float3(1.038287, 0.442218, -0.20473)
+camera.target = float3(0.08022, 0.440664, 0.081813)
+camera.up = float3(0.001065, 0.99999, -0.00031)
+camera.focalLength = 21.0
+sceneBuilder.addCamera(camera)
