@@ -1,0 +1,50 @@
+scene = sceneBuilder.importScene('modernRoom.obj')
+
+m = sceneBuilder.getMaterial('Wand_1')
+m.specularParams = float4(0.0, 0.0, 0.0, 0.0)
+
+m = sceneBuilder.getMaterial('Wand_2')
+m.specularParams = float4(0.0, 0.0, 0.0, 0.0)
+
+m = sceneBuilder.getMaterial('Esstisch_Ständer_unten')
+m.specularParams = float4(0.3, 0.3, 0.3, 0.48)
+m.baseColor = float4(0.6, 0.4, 0.4, 1)
+
+m = sceneBuilder.getMaterial('Stuhl_Fuß')
+m.specularParams = float4(0.5, 0.5, 0.5, 0.36)
+m.baseColor = float4(0.35, 0.36, 0.35, 1.0)
+
+m = sceneBuilder.getMaterial('Stuhl_Sitz')
+m.specularParams = float4(0.5, 0.5, 0.5, 0.6)
+m.baseColor = float4(0.49, 0.49, 0.49, 1.0)
+
+m = sceneBuilder.getMaterial('Stuhl_Sitz_Ornament')
+m.specularParams = float4(0.5, 0.5, 0.5, 0.8)
+m.baseColor = float4(0.45, 0.49, 0.49, 1.0)
+
+m = sceneBuilder.getMaterial('Deckenbeleuchtung')
+m.emissiveFactor = 0.0
+
+m = sceneBuilder.getMaterial('Fussbodenbeleuchtung')
+m.specularParams = float4(0.5, 0.5, 0.5, 0.0)
+
+
+m = sceneBuilder.getMaterial('Fussbodenmetallrahmen')
+m.specularParams = float4(0.5, 0.5, 0.5, 0.0)
+m.baseColor = float4(0.91, 0.81, 0.75, 1.0)
+
+m = sceneBuilder.getMaterial('Couch')
+m.specularParams = float4(0.5, 0.5, 0.5, 0.2)
+
+m = sceneBuilder.getMaterial('Couch_Polster')
+m.specularParams = float4(0.5, 0.5, 0.5, 0.6)
+
+
+# Add camera
+camera = Camera()
+camera.name = 'Default'
+camera.position = float3(3.4272, 1.5597, 1.7934)
+camera.target = float3(2.7653, 1.429, 2.5469)
+camera.up = float3(0.0001, 0.9999, 0.001)
+camera.focalLength = 21.0
+sceneBuilder.addCamera(camera)
