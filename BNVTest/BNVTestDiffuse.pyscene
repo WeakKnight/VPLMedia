@@ -1,0 +1,85 @@
+# Load FBX
+# scene = sceneBuilder.importScene('BNVTest.fbx')
+# scene = sceneBuilder.importScene('salle_de_bain.obj')
+# scene = sceneBuilder.importScene('fireplace_room.obj')
+# scene = sceneBuilder.importScene('fireplace_room1.obj')
+scene = sceneBuilder.importScene('untitled.obj')
+
+# metalMat = Material('ring')
+# metalMat.baseColor = float4(0.1, 0.1, 0.8, 0)
+# metalMat.roughness = 0.08
+# metalMat.metallic = 1
+
+# metalRing = TriangleMesh.createFromFile('ring box _Aneis_.obj')
+# metalMeshID = sceneBuilder.addTriangleMesh(metalRing, metalMat)
+
+# ringNodeID = sceneBuilder.addNode('Ring', Transform(scaling=0.01, translation=float3(1.68, 0.83, -1.76)))
+
+# sceneBuilder.addMeshInstance(ringNodeID, metalMeshID)
+
+# ring box _Aneis_.obj
+m = sceneBuilder.getMaterial('grey_and_white_room:BrushedStainlessSteel.002')
+m.baseColor = float4(1.0, 1.0, 1.0, 1)
+m.specularParams = float4(0.0, 0.0, 0.0, 0.0)
+
+m = sceneBuilder.getMaterial('grey_and_white_room:Leaves.002')
+m.baseColor = float4(1.0, 1.0, 1.0, 1)
+m.specularParams = float4(0.0, 0.0, 0.0, 0.0)
+
+m = sceneBuilder.getMaterial('grey_and_white_room:Paneling.002')
+m.baseColor = float4(1.0, 1.0, 1.0, 1)
+m.specularParams = float4(0.0, 0.0, 0.0, 0.0)
+
+m = sceneBuilder.getMaterial('grey_and_white_room:FireplaceGlass.002')
+m.baseColor = float4(1.0, 1.0, 1.0, 1)
+m.specularParams = float4(0.0, 0.0, 0.0, 0.0)
+
+m = sceneBuilder.getMaterial('grey_and_white_room:Floor.002')
+m.baseColor = float4(1.0, 1.0, 1.0, 1)
+m.specularParams = float4(0.0, 0.0, 0.0, 0.0)
+
+m = sceneBuilder.getMaterial('grey_and_white_room:Glass.002')
+m.baseColor = float4(1.0, 1.0, 1.0, 1)
+m.specularParams = float4(0.0, 0.0, 0.0, 0.0)
+
+m = sceneBuilder.getMaterial('grey_and_white_room:Mirror.002')
+m.baseColor = float4(1.0, 1.0, 1.0, 1)
+m.specularParams = float4(0.0, 0.0, 0.0, 0.0)
+
+m = sceneBuilder.getMaterial('grey_and_white_room:TableWood.002')
+m.baseColor = float4(1.0, 1.0, 1.0, 1)
+m.specularParams = float4(0.0, 0.0, 0.0, 0.0)
+
+m = sceneBuilder.getMaterial('material13')
+m.baseColor = float4(1.0, 1.0, 1.0, 1)
+m.specularParams = float4(0.0, 0.0, 0.0, 0.0)
+
+# Add environment map
+envMap = EnvMap('LightProbes/20050806-03_hd.hdr')
+envMap.intensity = 1.0
+sceneBuilder.envMap = envMap
+
+# Add camera
+camera = Camera()
+camera.name = 'Default'
+camera.position = float3(1.9372, 0.7097, -1.2434)
+camera.target = float3(1.8153, 0.9029, -2.2169)
+camera.up = float3(-0.0001, 0.9999, -0.001)
+camera.focalLength = 21.0
+sceneBuilder.addCamera(camera)
+
+camera1 = Camera()
+camera1.name = 'Mirror Front'
+camera1.position = float3(1.85062, 1.42458, -1.36899)
+camera1.target = float3(1.822597, 1.321338, -0.37473)
+camera1.up = float3(0.00003, 0.99999, -0.00110)
+camera1.focalLength = 21.0
+sceneBuilder.addCamera(camera1)
+
+camera2 = Camera()
+camera2.name = 'Metal Ring'
+camera2.position = float3(1.438924, 1.311683, -0.43985)
+camera2.target = float3(1.897765, 0.848104, 0.31814)
+camera2.up = float3(0.0, 0.1, 0.0)
+camera2.focalLength = 21.0
+sceneBuilder.addCamera(camera2)
