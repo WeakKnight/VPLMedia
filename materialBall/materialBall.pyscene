@@ -1,0 +1,9 @@
+scene = sceneBuilder.importScene('materialball.obj')
+# Add camera
+camera = Camera()
+camera.name = 'Default'
+camera.position = float3(3.8000, 5.7000, 5.0111)
+camera.target = float3(3.3000, 5.19000, 4.3154)
+camera.up = float3(0.0004, 1.0000, 0.0006)
+camera.focalLength = 21.0
+sceneBuilder.addCamera(camera)
