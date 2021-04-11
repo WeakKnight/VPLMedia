@@ -1,0 +1,440 @@
+newmtl ArchInteriors_Maya_Vol01_05_Mat__001_blinnSG
+illum 1
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd OBJTex/ArchInteriors_Maya_Vol01_05_Lettucetexture.tga
+map_Kn OBJTex/ArchInteriors_Maya_Vol01_05_Lettucetexturenormal.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+newmtl ArchInteriors_Maya_Vol01_05_Mat__002_blinnSG
+illum 0
+Kd 0.02 0.02 0.02
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.10 0.10 0.10
+Ns 48
+newmtl ArchInteriors_Maya_Vol01_05_Mat__003_blinnSG
+illum 0
+Kd 0.98 0.98 0.98
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.14 0.14 0.14
+Ns 48
+newmtl ArchInteriors_Maya_Vol01_05_Mat__005_blinnSG
+illum 0
+Kd 0.71 0.71 0.71
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.47 0.47 0.47
+Ns 48
+newmtl ArchInteriors_Maya_Vol01_05_Mat__006_blinnSG
+illum 0
+Kd 0.02 0.02 0.02
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.08 0.08 0.08
+Ns 48
+newmtl ArchInteriors_Maya_Vol01_05_Mat__007_phongSG
+illum 0
+Kd 0.09 0.09 0.09
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.04 0.04 0.04
+Ns 58.00
+newmtl ArchInteriors_Maya_Vol01_05_Mat__008_blinnSG
+illum 0
+Kd 0.98 0.98 0.98
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.10 0.10 0.10
+newmtl ArchInteriors_Maya_Vol01_05_Mat__010_blinnSG
+illum 0
+Kd 0.29 0.51 0.02
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.08 0.08 0.08
+Ns 48
+newmtl ArchInteriors_Maya_Vol01_05_Mat__011_blinnSG
+illum 0
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.59 0.59 0.59
+Ns 48
+newmtl ArchInteriors_Maya_Vol01_05_Mat__012_blinnSG
+illum 0
+Kd 0.55 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.10 0.10 0.10
+Ns 48
+newmtl ArchInteriors_Maya_Vol01_05_Mat__013_blinnSG
+illum 0
+Kd 0.57 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.14 0.14 0.14
+Ns 48
+newmtl ArchInteriors_Maya_Vol01_05_Mat__015_blinnSG
+illum 0
+Kd 0.57 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.00 0.00
+Ns 48
+newmtl ArchInteriors_Maya_Vol01_05_Mat__016_blinnSG
+illum 0
+Kd 0.98 0.98 0.98
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.14 0.14 0.14
+Ns 48
+newmtl ArchInteriors_Maya_Vol01_05_Mat__017_blinnSG
+illum 0
+Kd 0.02 0.02 0.02
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.06 0.06 0.06
+Ns 48
+newmtl ArchInteriors_Maya_Vol01_05_Mat__019_blinnSG
+illum 0
+Kd 0.51 0.51 0.51
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.59 0.59 0.59
+Ns 48
+newmtl ArchInteriors_Maya_Vol01_05_Mat__020_blinnSG
+illum 0
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd OBJTex/ArchInteriors_Maya_Vol01_05_Woods_&_Plastics.Finish_Carpentry.Wood.Paneling.1.jpg
+Ni 1.00
+Ks 0.00 0.00 0.00
+newmtl ArchInteriors_Maya_Vol01_05_Mat__021_blinnSG
+illum 0
+Kd 0.87 0.22 0.19
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.08 0.08 0.08
+Ns 48
+newmtl ArchInteriors_Maya_Vol01_05_Mat__022_blinnSG
+illum 0
+Kd 0.98 0.98 0.98
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.14 0.14 0.14
+Ns 48
+newmtl ArchInteriors_Maya_Vol01_05_Mat__023_blinnSG
+illum 0
+Kd 0.33 0.55 0.84
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.08 0.08 0.08
+Ns 48
+newmtl ArchInteriors_Maya_Vol01_05_Mat__024_blinnSG
+illum 0
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.06 0.06 0.06
+Ns 48
+newmtl ArchInteriors_Maya_Vol01_05_Mat__025_blinnSG
+illum 0
+Kd 0.24 0.24 0.24
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.59 0.59 0.59
+Ns 48
+newmtl ArchInteriors_Maya_Vol01_05_Mat__026_blinnSG
+illum 0
+Kd 0.98 0.98 0.98
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.00 0.00
+newmtl ArchInteriors_Maya_Vol01_05_Mat__028_blinnSG
+illum 0
+Kd 0.60 0.60 0.60
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.14 0.14 0.14
+Ns 48
+newmtl ArchInteriors_Maya_Vol01_05_Mat__030_blinnSG
+illum 0
+Kd 0.98 0.98 0.98
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.10 0.10 0.10
+Ns 48
+newmtl ArchInteriors_Maya_Vol01_05_Mat__031_blinnSG
+illum 0
+Kd 0.53 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kn OBJTex/ArchInteriors_Maya_Vol01_05_fabric_normal.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+newmtl ArchInteriors_Maya_Vol01_05_Mat__032_blinnSG
+illum 0
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd OBJTex/ArchInteriors_Maya_Vol01_05_apple_texture.jpg
+Ni 1.00
+Ks 0.08 0.08 0.08
+Ns 48
+newmtl ArchInteriors_Maya_Vol01_05_Mat__033_blinnSG
+illum 0
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.04 0.04 0.04
+Ns 48
+newmtl ArchInteriors_Maya_Vol01_05_Mat__034_blinnSG
+illum 0
+Kd 0.24 0.24 0.24
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.59 0.59 0.59
+Ns 48
+newmtl ArchInteriors_Maya_Vol01_05_Mat__035_blinnSG
+illum 0
+Kd 1.39 1.39 1.39
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.00 0.00
+newmtl ArchInteriors_Maya_Vol01_05_Mat__036_blinnSG
+illum 0
+Kd 0.02 0.02 0.02
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.47 0.47 0.47
+Ns 48
+newmtl ArchInteriors_Maya_Vol01_05_Mat__037_blinnSG
+illum 0
+Kd 0.27 0.27 0.27
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.59 0.59 0.59
+Ns 48
+newmtl ArchInteriors_Maya_Vol01_05_Mat__038_blinnSG
+illum 0
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd OBJTex/ArchInteriors_Maya_Vol01_05_serviette.jpg
+Ni 1.00
+Ks 0.00 0.00 0.00
+newmtl ArchInteriors_Maya_Vol01_05_Mat__040_blinnSG
+illum 0
+Kd 0.98 0.98 0.98
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.14 0.14 0.14
+Ns 48
+newmtl ArchInteriors_Maya_Vol01_05_Mat__041_blinnSG
+illum 0
+Kd 0.3 0.3 0.3
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.8 0.8 0.8
+Ns 48
+newmtl ArchInteriors_Maya_Vol01_05_Mat__043_lambertSG
+illum 0
+Kd 0.98 0.93 0.88
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl ArchInteriors_Maya_Vol01_05_Mat__045_blinnSG
+illum 0
+Kd 0.45 0.12 0.01
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.08 0.08 0.08
+Ns 48
+newmtl ArchInteriors_Maya_Vol01_05_Mat__046_blinnSG
+illum 0
+Kd 0.24 0.24 0.24
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.59 0.59 0.59
+Ns 48
+newmtl ArchInteriors_Maya_Vol01_05_Mat__047_lambertSG
+illum 0
+Kd 0.92 0.82 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl ArchInteriors_Maya_Vol01_05_Mat__049_blinnSG
+illum 0
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.10 0.10 0.10
+Ns 48
+newmtl ArchInteriors_Maya_Vol01_05_Mat__050_blinnSG
+illum 1
+Kd 0.67 0.67 0.67
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.00 0.00 0.00
+newmtl ArchInteriors_Maya_Vol01_05_Mat__051_blinnSG
+illum 0
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd OBJTex/ArchInteriors_Maya_Vol01_05_cookie2.jpg
+map_Kn OBJTex/ArchInteriors_Maya_Vol01_05_cookie_normal.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+newmtl ArchInteriors_Maya_Vol01_05_Mat__052_blinnSG
+illum 0
+Kd 0.31 0.31 0.31
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.59 0.59 0.59
+Ns 48
+newmtl ArchInteriors_Maya_Vol01_05_Mat__053_blinnSG
+illum 0
+Kd 0.56 0.12 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.08 0.08 0.08
+Ns 48
+newmtl ArchInteriors_Maya_Vol01_05_Mat__054_blinnSG
+illum 0
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd OBJTex/ArchInteriors_Maya_Vol01_05_apple_leaf.png
+Ni 1.00
+Ks 0.00 0.00 0.00
+newmtl ArchInteriors_Maya_Vol01_05_Mat__055_blinnSG
+illum 0
+Kd 0.24 0.24 0.24
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.59 0.59 0.59
+Ns 48
+newmtl ArchInteriors_Maya_Vol01_05_Mat__056_blinnSG
+illum 0
+Kd 0.02 0.02 0.02
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.14 0.14 0.14
+Ns 48
+newmtl ArchInteriors_Maya_Vol01_05_Mat__057_blinnSG
+illum 0
+Kd 0.20 0.20 0.20
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.59 0.59 0.59
+Ns 48
+newmtl VRayLightMtl1SG
+illum 0
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Ke 10.00 10.00 10.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+newmtl VRayLightMtl2SG
+illum 0
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Ke 1.00 1.00 1.00
+map_Ke OBJTex/ArchInteriors_Maya_Vol01_05_background.jpg
+Ni 0.00
+newmtl VRayMtlWrapper1SG
+illum 0
+Kd 0.04 0.04 0.04
+Ks 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+Ns 48
+newmtl VRayMtlWrapper3SG
+illum 0
+Kd 0.50 0.50 0.50
+Ks 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+Ns 48
+newmtl VRayMtlWrapper4SG
+illum 0
+Kd 0.90 0.90 0.90
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+Ns 48
+newmtl VRayMtlWrapper5SG
+illum 0
+Kd 0.04 0.04 0.04
+Ks 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+Ns 48
+newmtl saveSelected_WallPieces:Chrome_6SG
+illum 0
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Ks 0.14 0.14 0.14
+Tf 1.00 1.00 1.00
+Ni 0.00
+Ns 48
+newmtl saveSelected_WallPieces:VRayMtl13SG
+illum 0
+Kd 0.04 0.04 0.04
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ks 0.14 0.14 0.14
+Ni 0.00
+Ns 48
+newmtl saveSelected_WallPieces:VRayMtl29SG
+illum 0
+Kd 0.57 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ks 0.14 0.14 0.14
+Ni 0.00
+Ns 48

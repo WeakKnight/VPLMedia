@@ -1,0 +1,10 @@
+# Load FBX
+sceneBuilder.importScene('Kitchen.obj')
+
+# Add camera
+camera = Camera()
+camera.position = float3(86.786,131.15,327.91)
+camera.target = float3(86.623,130.92,326.96)
+camera.up = float3(0.000826,1.000000,-0.000366)
+cameraSpeed = 14.289999961853027
+sceneBuilder.addCamera(camera)
