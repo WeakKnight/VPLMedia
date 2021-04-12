@@ -1,12 +1,19 @@
 # Load FBX
 sceneBuilder.importScene('Kitchen.obj')
 
+m = sceneBuilder.getMaterial('VRayLightMtl2SG')
+m.emissiveFactor = 0.0
+
+m = sceneBuilder.getMaterial('VRayLightMtl1SG')
+m.emissiveFactor = 30.0
+
 # Add camera
 camera = Camera()
-camera.position = float3(86.786,131.15,327.91)
-camera.target = float3(86.623,130.92,326.96)
+camera.position = float3(1.52857,1.83615,5.4636)
+camera.target = float3(1.06,1.545,4.62)
 camera.up = float3(0.000826,1.000000,-0.000366)
-camera.farPlane = 1600
+camera.farPlane = 1000
 sceneBuilder.addCamera(camera)
 
-sceneBuilder.cameraSpeed = 30
+
+# sceneBuilder.cameraSpeed = 1
