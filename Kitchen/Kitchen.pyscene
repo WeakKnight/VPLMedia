@@ -7,6 +7,19 @@ m.emissiveFactor = 0.0
 m = sceneBuilder.getMaterial('VRayLightMtl1SG')
 m.emissiveFactor = 30.0
 
+m = sceneBuilder.getMaterial('ArchInteriors_Maya_Vol01_05_Mat__015_blinnSG')
+m.baseColor = float4(0.83, 0.11, 0.07, 1.0)
+m.specularParams = float4(0.0, 0.0, 0.0, 0.0)
+
+m = sceneBuilder.getMaterial('ArchInteriors_Maya_Vol01_05_Mat__036_blinnSG')
+m.specularParams = float4(0.47, 0.47, 0.47, 0.73)
+
+m = sceneBuilder.getMaterial('ArchInteriors_Maya_Vol01_05_Mat__046_blinnSG')
+m.specularParams = float4(0.59, 0.59, 0.59, 0.75)
+
+m = sceneBuilder.getMaterial('ArchInteriors_Maya_Vol01_05_Mat__013_blinnSG')
+m.specularParams = float4(0.14, 0.14, 0.14, 0.75)
+
 # Add camera
 camera = Camera()
 camera.position = float3(1.52857,1.83615,5.4636)

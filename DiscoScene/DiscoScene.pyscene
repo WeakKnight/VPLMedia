@@ -33,3 +33,20 @@ camera.target = float3(0.08022, 0.440664, 0.081813)
 camera.up = float3(0.001065, 0.99999, -0.00031)
 camera.focalLength = 21.0
 sceneBuilder.addCamera(camera)
+
+camera1 = Camera()
+camera1.name = 'Interesting'
+camera1.position = float3(0.522504, 0.403282, 0.08509)
+camera1.target = float3(-0.42904, 0.561607, -0.17852)
+camera1.up = float3(0.001065, 0.99999, -0.00031)
+camera1.focalLength = 21.0
+sceneBuilder.addCamera(camera1)
+
+camera2 = Camera()
+camera2.name = 'Interesting2'
+camera2.position = float3(0.296772, 0.202419, 0.219054)
+camera2.target = float3(-0.24096, 0.60632, -0.52101)
+camera2.up = float3(0.001065, 0.99999, -0.00031)
+camera2.focalLength = 21.0
+sceneBuilder.addCamera(camera2)
+
